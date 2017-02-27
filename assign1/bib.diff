@@ -1,0 +1,27 @@
+1c1
+< Name: Hugh B. Maynard
+---
+> Name: Alan Wernick
+3c3
+< UTSA ID:  @01234567
+---
+> UTSA ID:  @01624052
+7,15c7,14
+<       CS 1063             T. Bylander        UTSA
+<       CS 1713             K. Robbins         UTSA
+<       CS 1711             K. Robbins         UTSA
+<       CS 2123             H. Maynard         UTSA
+<       CS 2121             H. Maynard         UTSA
+<       CS 2233             T. Bylander        UTSA
+<       CS 2231             T. Bylander        UTSA
+<       CS 3333             Bopanna            UTSA
+<       CS 3331             Bopanna            UTSA
+---
+>       CS 1401             C. Servin          EPCC
+>       CS 2401             C. Servin          EPCC
+>       CS 2302             C. Servin          EPCC
+>       CS 3432             L. Freudenthal     UTEP
+>       CS 3350             M. Ceberio         UTEP
+>       CS 3331             N. Ward            UTEP
+>       CS 2123             T. Korkmaz         UTSA
+>       CS 3423             H. Maynard         UTSA

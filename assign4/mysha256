@@ -1,0 +1,21 @@
+#! /usr/bin/perl -w
+
+$rootfile = shift;
+$shafile = shift;
+
+open(IN, $rootfile) or die ("Could not open root file:$rootfile");
+
+if(defined($shafile)) {
+  open($out, "> $shafile") or die("Could not open outfile: $shafile");
+} else {
+  $out = STDOUT;
+}
+
+while(<IN>) {
+  chop $_;
+  $output = `sha256sum $_`;
+  grep(s/(\S+)\s+(.*)/$2\t$1/,$output);
+  print $out $output;
+}
+
+close($out);

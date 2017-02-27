@@ -1,0 +1,694 @@
+Mon Sep 15 11:48:58 1997
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20115
+	Acct-Status-Type = Stop
+	Acct-Delay-Time = 5
+	Acct-Session-Id = "239736712"
+	Ascend-Disconnect-Cause = 185
+	Ascend-Connect-Progress = 31
+	Ascend-Data-Rate = 0
+	Ascend-PreSession-Time = 11
+	Ascend-Pre-Input-Octets = 0
+	Ascend-Pre-Output-Octets = 0
+	Ascend-Pre-Input-Packets = 0
+	Ascend-Pre-Output-Packets = 0
+	Client-Port-DNIS = "3571800"
+
+Mon Sep 15 11:49:14 1997
+	User-Name = "wkuechle"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20115
+	Acct-Status-Type = Start
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736713"
+	Acct-Authentic = RADIUS
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.46
+
+Mon Sep 15 11:49:24 1997
+	User-Name = "mustang"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20104
+	Acct-Status-Type = Stop
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736711"
+	Acct-Authentic = RADIUS
+	Acct-Session-Time = 65
+	Acct-Input-Octets = 900
+	Acct-Output-Octets = 1067
+	Acct-Input-Packets = 22
+	Acct-Output-Packets = 30
+	Ascend-Disconnect-Cause = 185
+	Ascend-Connect-Progress = 65
+	Ascend-Data-Rate = 14400
+	Ascend-PreSession-Time = 24
+	Ascend-Pre-Input-Octets = 391
+	Ascend-Pre-Output-Octets = 458
+	Ascend-Pre-Input-Packets = 12
+	Ascend-Pre-Output-Packets = 14
+	Ascend-First-Dest = 207.238.228.2
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.45
+
+Mon Sep 15 11:49:34 1997
+	User-Name = "tweety"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20120
+	Acct-Status-Type = Start
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736714"
+	Acct-Authentic = RADIUS
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.47
+
+Mon Sep 15 11:50:06 1997
+	User-Name = "chris"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20101
+	Acct-Status-Type = Stop
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736632"
+	Acct-Authentic = RADIUS
+	Acct-Session-Time = 7495
+	Acct-Input-Octets = 148919
+	Acct-Output-Octets = 311031
+	Acct-Input-Packets = 3483
+	Acct-Output-Packets = 2687
+	Ascend-Disconnect-Cause = 45
+	Ascend-Connect-Progress = 60
+	Ascend-Data-Rate = 28800
+	Ascend-PreSession-Time = 19
+	Ascend-Pre-Input-Octets = 392
+	Ascend-Pre-Output-Octets = 348
+	Ascend-Pre-Input-Packets = 7
+	Ascend-Pre-Output-Packets = 11
+	Ascend-First-Dest = 207.238.228.2
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.26
+
+Mon Sep 15 11:50:08 1997
+	User-Name = "edvargas"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20116
+	Acct-Status-Type = Stop
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736692"
+	Acct-Authentic = RADIUS
+	Acct-Session-Time = 1801
+	Acct-Input-Octets = 12443
+	Acct-Output-Octets = 14153
+	Acct-Input-Packets = 225
+	Acct-Output-Packets = 103
+	Ascend-Disconnect-Cause = 45
+	Ascend-Connect-Progress = 60
+	Ascend-Data-Rate = 31200
+	Ascend-PreSession-Time = 19
+	Ascend-Pre-Input-Octets = 392
+	Ascend-Pre-Output-Octets = 345
+	Ascend-Pre-Input-Packets = 11
+	Ascend-Pre-Output-Packets = 11
+	Ascend-First-Dest = 207.238.228.2
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.25
+
+Mon Sep 15 11:50:48 1997
+	User-Name = "john"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20101
+	Acct-Status-Type = Start
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736715"
+	Acct-Authentic = RADIUS
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.48
+
+Mon Sep 15 11:52:08 1997
+	User-Name = "wkuechle"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20115
+	Acct-Status-Type = Stop
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736713"
+	Acct-Authentic = RADIUS
+	Acct-Session-Time = 174
+	Acct-Input-Octets = 4386
+	Acct-Output-Octets = 18458
+	Acct-Input-Packets = 97
+	Acct-Output-Packets = 86
+	Ascend-Disconnect-Cause = 45
+	Ascend-Connect-Progress = 60
+	Ascend-Data-Rate = 28800
+	Ascend-PreSession-Time = 17
+	Ascend-Pre-Input-Octets = 464
+	Ascend-Pre-Output-Octets = 516
+	Ascend-Pre-Input-Packets = 7
+	Ascend-Pre-Output-Packets = 11
+	Ascend-First-Dest = 207.238.228.2
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.46
+
+Mon Sep 15 11:53:59 1997
+	User-Name = "dvorak"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20113
+	Acct-Status-Type = Stop
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736705"
+	Acct-Authentic = RADIUS
+	Acct-Session-Time = 575
+	Acct-Input-Octets = 22914
+	Acct-Output-Octets = 12344
+	Acct-Input-Packets = 635
+	Acct-Output-Packets = 127
+	Ascend-Disconnect-Cause = 45
+	Ascend-Connect-Progress = 60
+	Ascend-Data-Rate = 19200
+	Ascend-PreSession-Time = 22
+	Ascend-Pre-Input-Octets = 448
+	Ascend-Pre-Output-Octets = 521
+	Ascend-Pre-Input-Packets = 16
+	Ascend-Pre-Output-Packets = 11
+	Ascend-First-Dest = 207.238.228.2
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.40
+
+Mon Sep 15 11:54:04 1997
+	User-Name = "dvorak"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20113
+	Acct-Status-Type = Stop
+	Acct-Delay-Time = 5
+	Acct-Session-Id = "239736705"
+	Acct-Authentic = RADIUS
+	Acct-Session-Time = 575
+	Acct-Input-Octets = 22914
+	Acct-Output-Octets = 12344
+	Acct-Input-Packets = 635
+	Acct-Output-Packets = 127
+	Ascend-Disconnect-Cause = 45
+	Ascend-Connect-Progress = 60
+	Ascend-Data-Rate = 19200
+	Ascend-PreSession-Time = 22
+	Ascend-Pre-Input-Octets = 448
+	Ascend-Pre-Output-Octets = 521
+	Ascend-Pre-Input-Packets = 16
+	Ascend-Pre-Output-Packets = 11
+	Ascend-First-Dest = 207.238.228.2
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.40
+
+Mon Sep 15 11:54:28 1997
+	User-Name = "pansut0"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20119
+	Acct-Status-Type = Stop
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736696"
+	Acct-Authentic = RADIUS
+	Acct-Session-Time = 1573
+	Acct-Input-Octets = 106872
+	Acct-Output-Octets = 591158
+	Acct-Input-Packets = 1660
+	Acct-Output-Packets = 1783
+	Ascend-Disconnect-Cause = 185
+	Ascend-Connect-Progress = 60
+	Ascend-Data-Rate = 26400
+	Ascend-PreSession-Time = 21
+	Ascend-Pre-Input-Octets = 380
+	Ascend-Pre-Output-Octets = 415
+	Ascend-Pre-Input-Packets = 11
+	Ascend-Pre-Output-Packets = 11
+	Ascend-First-Dest = 207.238.228.2
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.30
+
+Mon Sep 15 11:55:09 1997
+	User-Name = "shadow"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20104
+	Acct-Status-Type = Start
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736716"
+	Acct-Authentic = RADIUS
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.50
+
+Mon Sep 15 11:56:16 1997
+	User-Name = "rmckeel"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20105
+	Acct-Status-Type = Stop
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736708"
+	Acct-Authentic = RADIUS
+	Acct-Session-Time = 540
+	Acct-Input-Octets = 27814
+	Acct-Output-Octets = 65840
+	Acct-Input-Packets = 423
+	Acct-Output-Packets = 253
+	Ascend-Disconnect-Cause = 45
+	Ascend-Connect-Progress = 60
+	Ascend-Data-Rate = 28800
+	Ascend-PreSession-Time = 20
+	Ascend-Pre-Input-Octets = 363
+	Ascend-Pre-Output-Octets = 344
+	Ascend-Pre-Input-Packets = 11
+	Ascend-Pre-Output-Packets = 10
+	Ascend-First-Dest = 207.238.228.255
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.41
+
+Mon Sep 15 11:57:43 1997
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20105
+	Acct-Status-Type = Stop
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736717"
+	Ascend-Disconnect-Cause = 185
+	Ascend-Connect-Progress = 75
+	Ascend-Data-Rate = 14400
+	Ascend-PreSession-Time = 30
+	Ascend-Pre-Input-Octets = 309
+	Ascend-Pre-Output-Octets = 132
+	Ascend-Pre-Input-Packets = 9
+	Ascend-Pre-Output-Packets = 4
+	Client-Port-DNIS = "3571800"
+
+Mon Sep 15 11:58:35 1997
+	User-Name = "sudan"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20105
+	Acct-Status-Type = Start
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736718"
+	Acct-Authentic = RADIUS
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.51
+
+Mon Sep 15 11:59:02 1997
+	User-Name = "mustang"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20113
+	Acct-Status-Type = Start
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736719"
+	Acct-Authentic = RADIUS
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.52
+
+Mon Sep 15 11:59:45 1997
+	User-Name = "daven917"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20109
+	Acct-Status-Type = Stop
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736680"
+	Acct-Authentic = RADIUS
+	Acct-Session-Time = 3108
+	Acct-Input-Octets = 126755
+	Acct-Output-Octets = 1411679
+	Acct-Input-Packets = 2710
+	Acct-Output-Packets = 4205
+	Ascend-Disconnect-Cause = 45
+	Ascend-Connect-Progress = 60
+	Ascend-Data-Rate = 26400
+	Ascend-PreSession-Time = 23
+	Ascend-Pre-Input-Octets = 459
+	Ascend-Pre-Output-Octets = 453
+	Ascend-Pre-Input-Packets = 16
+	Ascend-Pre-Output-Packets = 20
+	Ascend-First-Dest = 207.238.228.255
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.12
+
+Mon Sep 15 12:00:41 1997
+	User-Name = "cunder"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20112
+	Acct-Status-Type = Stop
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736668"
+	Acct-Authentic = RADIUS
+	Acct-Session-Time = 4777
+	Acct-Input-Octets = 175049
+	Acct-Output-Octets = 4395452
+	Acct-Input-Packets = 7529
+	Acct-Output-Packets = 12336
+	Ascend-Disconnect-Cause = 45
+	Ascend-Connect-Progress = 60
+	Ascend-Data-Rate = 14400
+	Ascend-PreSession-Time = 20
+	Ascend-Pre-Input-Octets = 363
+	Ascend-Pre-Output-Octets = 342
+	Ascend-Pre-Input-Packets = 12
+	Ascend-Pre-Output-Packets = 10
+	Ascend-First-Dest = 207.238.228.2
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.49
+
+Mon Sep 15 12:01:28 1997
+	User-Name = "kiri"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20114
+	Acct-Status-Type = Stop
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736710"
+	Acct-Authentic = RADIUS
+	Acct-Session-Time = 814
+	Acct-Input-Octets = 37529
+	Acct-Output-Octets = 177927
+	Acct-Input-Packets = 2124
+	Acct-Output-Packets = 1810
+	Ascend-Disconnect-Cause = 45
+	Ascend-Connect-Progress = 60
+	Ascend-Data-Rate = 26400
+	Ascend-PreSession-Time = 22
+	Ascend-Pre-Input-Octets = 457
+	Ascend-Pre-Output-Octets = 440
+	Ascend-Pre-Input-Packets = 11
+	Ascend-Pre-Output-Packets = 12
+	Ascend-First-Dest = 207.238.228.2
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.43
+
+Mon Sep 15 12:03:01 1997
+	User-Name = "mustang"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20113
+	Acct-Status-Type = Stop
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736719"
+	Acct-Authentic = RADIUS
+	Acct-Session-Time = 238
+	Acct-Input-Octets = 9942
+	Acct-Output-Octets = 46069
+	Acct-Input-Packets = 199
+	Acct-Output-Packets = 226
+	Ascend-Disconnect-Cause = 11
+	Ascend-Connect-Progress = 65
+	Ascend-Data-Rate = 14400
+	Ascend-PreSession-Time = 24
+	Ascend-Pre-Input-Octets = 405
+	Ascend-Pre-Output-Octets = 458
+	Ascend-Pre-Input-Packets = 15
+	Ascend-Pre-Output-Packets = 14
+	Ascend-First-Dest = 207.238.228.2
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.52
+
+Mon Sep 15 12:03:14 1997
+	User-Name = "pansut0"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20109
+	Acct-Status-Type = Start
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736720"
+	Acct-Authentic = RADIUS
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.53
+
+Mon Sep 15 12:03:58 1997
+	User-Name = "mustang"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20112
+	Acct-Status-Type = Start
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736721"
+	Acct-Authentic = RADIUS
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.54
+
+Mon Sep 15 12:04:43 1997
+	User-Name = "rebates"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20106
+	Acct-Status-Type = Stop
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736709"
+	Acct-Authentic = RADIUS
+	Acct-Session-Time = 1024
+	Acct-Input-Octets = 3323
+	Acct-Output-Octets = 4521
+	Acct-Input-Packets = 57
+	Acct-Output-Packets = 41
+	Ascend-Disconnect-Cause = 100
+	Ascend-Connect-Progress = 60
+	Ascend-Data-Rate = 33600
+	Ascend-PreSession-Time = 18
+	Ascend-Pre-Input-Octets = 392
+	Ascend-Pre-Output-Octets = 345
+	Ascend-Pre-Input-Packets = 11
+	Ascend-Pre-Output-Packets = 11
+	Ascend-First-Dest = 204.71.177.71
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.42
+
+Mon Sep 15 12:04:49 1997
+	User-Name = "cstaples"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20103
+	Acct-Status-Type = Stop
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736597"
+	Acct-Authentic = RADIUS
+	Acct-Session-Time = 14427
+	Acct-Input-Octets = 41872
+	Acct-Output-Octets = 40953
+	Acct-Input-Packets = 1055
+	Acct-Output-Packets = 121
+	Ascend-Disconnect-Cause = 195
+	Ascend-Connect-Progress = 60
+	Ascend-Data-Rate = 26400
+	Ascend-PreSession-Time = 20
+	Ascend-Pre-Input-Octets = 384
+	Ascend-Pre-Output-Octets = 327
+	Ascend-Pre-Input-Packets = 14
+	Ascend-Pre-Output-Packets = 10
+	Ascend-First-Dest = 224.0.0.2
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.37
+
+Mon Sep 15 12:05:40 1997
+	User-Name = "mustang"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20112
+	Acct-Status-Type = Stop
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736721"
+	Acct-Authentic = RADIUS
+	Acct-Session-Time = 102
+	Acct-Input-Octets = 1109
+	Acct-Output-Octets = 7723
+	Acct-Input-Packets = 29
+	Acct-Output-Packets = 51
+	Ascend-Disconnect-Cause = 185
+	Ascend-Connect-Progress = 65
+	Ascend-Data-Rate = 14400
+	Ascend-PreSession-Time = 26
+	Ascend-Pre-Input-Octets = 595
+	Ascend-Pre-Output-Octets = 701
+	Ascend-Pre-Input-Packets = 17
+	Ascend-Pre-Output-Packets = 18
+	Ascend-First-Dest = 204.71.200.69
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.54
+
+Mon Sep 15 12:08:36 1997
+	User-Name = "alcestys"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20102
+	Acct-Status-Type = Stop
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736624"
+	Acct-Authentic = RADIUS
+	Acct-Session-Time = 10169
+	Acct-Input-Octets = 252640
+	Acct-Output-Octets = 259318
+	Acct-Input-Packets = 5554
+	Acct-Output-Packets = 3188
+	Ascend-Disconnect-Cause = 45
+	Ascend-Connect-Progress = 60
+	Ascend-Data-Rate = 28800
+	Ascend-PreSession-Time = 18
+	Ascend-Pre-Input-Octets = 397
+	Ascend-Pre-Output-Octets = 348
+	Ascend-Pre-Input-Packets = 8
+	Ascend-Pre-Output-Packets = 11
+	Ascend-First-Dest = 207.238.228.2
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.17
+
+Mon Sep 15 12:09:07 1997
+	User-Name = "grant"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20102
+	Acct-Status-Type = Start
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736722"
+	Acct-Authentic = RADIUS
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.55
+
+Mon Sep 15 12:15:08 1997
+	User-Name = "tweety"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20120
+	Acct-Status-Type = Stop
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736714"
+	Acct-Authentic = RADIUS
+	Acct-Session-Time = 1534
+	Acct-Input-Octets = 139972
+	Acct-Output-Octets = 945067
+	Acct-Input-Packets = 2646
+	Acct-Output-Packets = 2843
+	Ascend-Disconnect-Cause = 185
+	Ascend-Connect-Progress = 65
+	Ascend-Data-Rate = 26400
+	Ascend-PreSession-Time = 28
+	Ascend-Pre-Input-Octets = 607
+	Ascend-Pre-Output-Octets = 702
+	Ascend-Pre-Input-Packets = 22
+	Ascend-Pre-Output-Packets = 18
+	Ascend-First-Dest = 207.238.228.2
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.47
+
+Mon Sep 15 12:15:16 1997
+	User-Name = "shadow"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20104
+	Acct-Status-Type = Stop
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736716"
+	Acct-Authentic = RADIUS
+	Acct-Session-Time = 1207
+	Acct-Input-Octets = 42312
+	Acct-Output-Octets = 151177
+	Acct-Input-Packets = 675
+	Acct-Output-Packets = 603
+	Ascend-Disconnect-Cause = 45
+	Ascend-Connect-Progress = 60
+	Ascend-Data-Rate = 28800
+	Ascend-PreSession-Time = 19
+	Ascend-Pre-Input-Octets = 359
+	Ascend-Pre-Output-Octets = 342
+	Ascend-Pre-Input-Packets = 10
+	Ascend-Pre-Output-Packets = 10
+	Ascend-First-Dest = 207.238.228.255
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.50
+
+Mon Sep 15 12:17:13 1997
+	User-Name = "alcestys"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20103
+	Acct-Status-Type = Start
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736723"
+	Acct-Authentic = RADIUS
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.56
+
+Mon Sep 15 12:17:46 1997
+	User-Name = "wynng"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20104
+	Acct-Status-Type = Start
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736724"
+	Acct-Authentic = RADIUS
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.57
+
+Mon Sep 15 12:19:40 1997
+	User-Name = "wynng"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20104
+	Acct-Status-Type = Stop
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736724"
+	Acct-Authentic = RADIUS
+	Acct-Session-Time = 115
+	Acct-Input-Octets = 3915
+	Acct-Output-Octets = 3315
+	Acct-Input-Packets = 83
+	Acct-Output-Packets = 66
+	Ascend-Disconnect-Cause = 45
+	Ascend-Connect-Progress = 60
+	Ascend-Data-Rate = 28800
+	Ascend-PreSession-Time = 40
+	Ascend-Pre-Input-Octets = 395
+	Ascend-Pre-Output-Octets = 347
+	Ascend-Pre-Input-Packets = 10
+	Ascend-Pre-Output-Packets = 11
+	Ascend-First-Dest = 207.238.228.255
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.57
+
+Mon Sep 15 12:20:07 1997
+	User-Name = "lsantizo"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20104
+	Acct-Status-Type = Start
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736725"
+	Acct-Authentic = RADIUS
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.58
+
+Mon Sep 15 12:26:05 1997
+	User-Name = "cmsource"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20106
+	Acct-Status-Type = Start
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736726"
+	Acct-Authentic = RADIUS
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.59
+
+Mon Sep 15 12:27:51 1997
+	User-Name = "fiddler"
+	NAS-Identifier = 207.238.228.11
+	NAS-Port = 20112
+	Acct-Status-Type = Start
+	Acct-Delay-Time = 0
+	Acct-Session-Id = "239736727"
+	Acct-Authentic = RADIUS
+	Client-Port-DNIS = "3571800"
+	Framed-Protocol = PPP
+	Framed-Address = 207.238.228.12
+

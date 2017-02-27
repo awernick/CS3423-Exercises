@@ -1,0 +1,50 @@
+    USER   PID %CPU %MEM   VSZ   RSS  TT STAT  START   TIME COMMAND
+daemon     168  0.0  0.4   816   304  ?  S    Aug 26   0:00 /usr/sbin/rpc.portmap  
+maynard  11607  0.0  1.2  1388   760  p1 S     14:44   0:00 -tcsh  
+nobody    9983  0.0  1.0  1096   664  ?  S     14:23   0:00 /usr/local/bin/httpd -f /usr/local/lib/apache/conf/httpd.conf  
+root     11985  0.0  1.3  1276   828  ?  S     14:50   0:00 sendmail: TAA30849 ruby.nb.net.: user open                              
+nobody   10580  0.0  1.0  1096   660  ?  S     14:30   0:00 /usr/local/bin/httpd -f /usr/local/lib/apache/conf/httpd.conf  
+nobody   10585  0.0  1.0  1096   664  ?  S     14:30   0:00 /usr/local/bin/httpd -f /usr/local/lib/apache/conf/httpd.conf  
+nobody   10587  0.0  1.0  1096   660  ?  S     14:30   0:00 /usr/local/bin/httpd -f /usr/local/lib/apache/conf/httpd.conf  
+root     12010  0.1  1.3  1276   828  ?  S     14:51   0:00 sendmail: OAA11009 tenfour.faidor.com.: user open                       
+nobody   10589  0.0  1.0  1096   656  ?  S     14:30   0:00 /usr/local/bin/httpd -f /usr/local/lib/apache/conf/httpd.conf  
+nobody   11230  0.0  1.0  1096   660  ?  S     14:39   0:00 /usr/local/bin/httpd -f /usr/local/lib/apache/conf/httpd.conf  
+nobody   11836  0.0  1.0  1096   664  ?  S     14:47   0:00 /usr/local/bin/httpd -f /usr/local/lib/apache/conf/httpd.conf  
+nobody   11983  0.0  1.0  1096   656  ?  S     14:49   0:00 /usr/local/bin/httpd -f /usr/local/lib/apache/conf/httpd.conf  
+root     12050  0.0  1.1  1204   716  ?  S     14:51   0:00 sendmail: server bl-14.rootsweb.com [204.212.38.30] cmd read            
+nobody   12000  0.0  0.9  1072   572  ?  S     14:50   0:00 /usr/local/bin/httpd -f /usr/local/lib/apache/conf/httpd.conf  
+nobody   12009  0.0  0.9  1072   572  ?  S     14:50   0:00 /usr/local/bin/httpd -f /usr/local/lib/apache/conf/httpd.conf  
+root         1  0.1  0.4   804   312  ?  S    Aug 26  75:38 init [2]  
+root         2  0.0  0.0     0     0  ?  SW   Aug 26   0:00 kflushd 
+root         3  0.0  0.0     0     0  ?  SW<  Aug 26   0:00 kswapd 
+root         4  0.0  0.0     0     0  ?  SW   Aug 26   0:00 nfsiod 
+root         5  0.0  0.0     0     0  ?  SW   Aug 26   0:00 nfsiod 
+root         6  0.0  0.0     0     0  ?  SW   Aug 26   0:00 nfsiod 
+root         7  0.0  0.0     0     0  ?  SW   Aug 26   0:00 nfsiod 
+root        13  0.0  0.3   780   248  ?  S    Aug 26   1:57 update  
+root       117  0.0  1.1  1164   728  ?  S    Aug 26   2:08 /sbin/syslogd  
+root       119  0.0  0.8   996   512  ?  S    Aug 26   0:00 /sbin/klogd  
+root       126  0.0  0.4   792   304  ?  S    Aug 26   0:00 /sbin/kerneld  
+root     12066  0.0  1.1  1200   712  ?  S     14:52   0:00 sendmail: server root@lucky.asiainvestments.com.AU [203.32.208.250] cmd 
+root       132  0.0  0.5   820   376  ?  S    Aug 26   0:01 /usr/sbin/cron  
+root       140  0.0  0.5   808   316  S0 S    Aug 26   0:00 /usr/sbin/gpm -m /dev/ttyS0 -t bare  
+root       144  0.0  0.4   820   292  ?  S    Aug 26   0:00 /usr/sbin/lpd  
+root       159  0.0  0.8  1052   548  ?  S    Aug 26   0:00 /usr/sbin/snmpd -f  
+root       170  0.0  0.4   800   312  ?  S    Aug 26   1:02 /usr/sbin/inetd  
+root       182  0.0  0.5   808   348  ?  S    Aug 26   0:00 /usr/local/bin/radipad  
+root       190  0.0  0.4   956   223  ?  S    Aug 26   0:00 /sbin/bserver
+root       193  0.0  0.4   796   276   5 S    Aug 26   0:00 /sbin/getty 38400 tty5  
+root       194  0.0  0.4   796   276   6 S    Aug 26   0:00 /sbin/getty 38400 tty6  
+root       195  0.0  0.5   900   360  ?  S    Aug 26   0:00 /usr/local/bin/radiusd -A services  
+root       196  0.0  0.7   944   472  ?  S    Aug 26   0:30 /usr/local/bin/radiusd -A services  
+root       197  0.0  0.9  1072   572  ?  S    Aug 26   0:01 /usr/local/bin/httpd -f /usr/local/lib/apache/conf/httpd.conf  
+root      2621  0.0  1.0  1192   676  ?  S    Sep 22   0:05 sendmail: accepting connections                                         
+root      4593  0.0  0.4   796   288   3 S    Sep 18   0:00 /sbin/getty 38400 tty3  
+root      5172  0.0  0.4   796   288   4 S    Aug 26   0:00 /sbin/getty 38400 tty4  
+root      9930  0.0  0.4   796   288   1 S     14:22   0:00 /sbin/getty 38400 tty1  
+root     11606  0.0  0.5   792   336  ?  S     14:44   0:00 in.rlogind  
+root     11935  0.0  1.2  1416   784  p1 S     14:49   0:00 -csh  
+root     12061  0.4  1.3  1296   864  ?  S     14:52   0:00 sendmail: QAA20336 b.mx.juno.com.: user open                            
+root     12075  0.0  0.6   912   424  p1 R     14:52   0:00 ps -axu --cols 132  
+root     30144  0.0  0.4   796   288   2 S     18:59   0:00 /sbin/getty 38400 tty2  
+root     12061  0.6  1.3  1296   864  ?  S     14:52   0:00 sendmail: VAA08931 xenon.tip.nl.: client HELO                          

@@ -1,0 +1,3 @@
+/usr/local/courses/cs3423/doc/tutorial.perl.ps	be87f0fdb7dec8b977913b4f9d70494991a7a7d99cdd11a9ebb7d1717b0cefef
+/home/ssv242/courses/cs/3423/assign4/mysha256	6ca2b99475372f4f61722b5f669ce2246ce1d158d03452c89182bdfa0ed3dd60
+/home/ssv242/courses/cs/3423/assign4/verifile	540cda0995dfba4db1d41f9af3253d454086dec7b0b7861b8870e97bd35d97e7

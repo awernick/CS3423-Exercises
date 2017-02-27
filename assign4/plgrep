@@ -1,0 +1,33 @@
+#! /usr/bin/perl -w
+
+$switch_or_rex = shift;
+
+if($switch_or_rex eq "-f") {
+  $switch = $switch_or_rex;
+  $rex = shift;
+} else {
+  $rex = $switch_or_rex;
+}
+
+@files = `find @ARGV`;
+chop @files;
+@files = grep(-f, @files);
+
+for $file (@files) {
+  if(not -T $file) {
+    @lines = `strings $file`;
+  } else {
+    open(FILE, $file) or die("Could not open this directory");
+    @lines = <FILE>;
+  }
+
+  @lines = grep(/$rex/, @lines);
+
+  if(defined($switch) && @lines) {
+    print $file, "\n";
+  } else {
+    for $line (@lines) {
+      print "$file:$line";
+    }
+  }
+}

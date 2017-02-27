@@ -1,0 +1,3 @@
+/usr/local/courses/cs3423/doc/tutorial.perl.ps
+/home/ssv242/courses/cs/3423/assign4/mysha256
+/home/ssv242/courses/cs/3423/assign4/verifile

@@ -1,0 +1,36 @@
+#! /usr/bin/perl -w
+
+$rootfile = shift;
+$shafile = shift;
+
+open(IN, $rootfile) or die ("Could not open root file:$rootfile");
+open(SHAFILE, $shafile) or die("Could not open outfile: $shafile");
+
+$line1 = <IN>;
+$line2 = <SHAFILE>;
+
+while($line1 || $line2) {
+  if(not defined($line1)) {
+    $line1 = ""
+  }
+
+  if(not defined($line2)) {
+    $line2 = ""
+  }
+
+  chop $line1;
+  chop $line2;
+  $output = `sha256sum $line1`;
+
+  grep(s/(\S+)\s+(.*)/$2\t$1/,$output);
+  $newsha = grep(/\S+/, $output);
+  $oldsha = grep(/\S+/, $line2);
+
+  if($newsha != $oldsha) { 
+    print "<old>$line2\n";
+    print "<new>$output\n";
+  }
+
+  $line1 = <IN>;
+  $line2 = <SHAFILE>;
+}
