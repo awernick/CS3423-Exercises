@@ -1,3 +1,85 @@
 #! /usr/bin/perl -w
 
+$show_dir1 = 1;
+$show_dir2 = 1;
+$show_diff = 1;
+$show_same = 1;
+$flags = "ds12";
 
+@switches = grep(/^-[${flags}]+/, @ARGV);
+grep(s/^-//, @switches);
+
+for $switch (@switches) {
+  @sw = split("", $switch);
+  for $s (@sw) {
+    if($s eq '1') {
+      $show_dir2 = 0;
+    }
+
+    if($s eq '2') {
+      $show_dir1 = 0;
+    }
+
+    if($s eq 'd') {
+      $show_same = 0;
+    }
+
+    if($s eq 's') {
+      $show_diff = 0;
+    }
+  }
+}
+
+if(not $show_dir1 and not $show_dir2) {
+  $show_dir1 = 1;
+  $show_dir2 = 1;
+}
+
+if(not $show_diff and not $show_same) {
+  $show_diff = 1;
+  $show_same = 1;
+}
+
+
+@dirs = grep(!/^-/, @ARGV);
+($dir1, $dir2) = @dirs;
+
+@files1 = `find $dir1`;
+@files2 = `find $dir2`;
+
+chop @files1;
+chop @files2;
+
+@files1 = grep(-f, @files1);
+@files2 = grep(-f, @files2);
+
+@diff = `/usr/bin/diff -q $dir1 $dir2`;
+chop @diff;
+
+for $file (@diff) {
+  if($file =~ /Only/) {
+
+    $_ = $file;
+    ($_, $path, $file) = /(.*) (\S+): (\S+)/;
+
+    if($path eq $dir1) {
+      if($show_dir1) {
+        print "<<< $file\n";
+      }
+    } else {
+      if($show_dir2) {
+        print ">>> $file\n";
+      }
+    }
+  }
+
+  if($file =~ /differ/) {
+    $_ = $file;
+    ($_, $path, $file) = /(.*) (\S+)\/(\S+)/;
+    chop $file;
+
+    if($show_diff) {
+      print "< $file >";
+    }
+  }
+ }
