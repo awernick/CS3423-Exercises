@@ -1,10 +1,12 @@
 #! /usr/bin/perl -w
+use File::Basename;
 
 $show_dir1 = 1;
 $show_dir2 = 1;
 $show_diff = 1;
 $show_same = 1;
 $flags = "ds12";
+
 
 @switches = grep(/^-[${flags}]+/, @ARGV);
 grep(s/^-//, @switches);
@@ -53,33 +55,91 @@ chop @files2;
 @files1 = grep(-f, @files1);
 @files2 = grep(-f, @files2);
 
+
+$file1 = shift @files1;
+$file2 = shift @files2;
+
 @diff = `/usr/bin/diff -q $dir1 $dir2`;
-chop @diff;
+@diff = grep(/Only/, @diff);
 
-for $file (@diff) {
-  if($file =~ /Only/) {
+while($file1 || $file2) {
+  if(defined($file1)) {
+    ($fn1, $p1, $_) = fileparse($file1);  
+  } else {
+    $fn1 = "-1";
+  }
 
-    $_ = $file;
-    ($_, $path, $file) = /(.*) (\S+): (\S+)/;
+  if(defined($file2)) {
+    ($fn2, $p2, $_) = fileparse($file2);  
+  } else {
+    $fn2 = "-1";
+  }
 
-    if($path eq $dir1) {
-      if($show_dir1) {
-        print "<<< $file\n";
-      }
-    } else {
-      if($show_dir2) {
-        print ">>> $file\n";
-      }
+  if($fn1 eq $fn2) {
+    $output = `/usr/bin/diff -q $p1$fn1 $p2$fn2`; 
+    chop $output;
+
+    # Same
+    if($output eq "" and $show_same) {
+      print "< $fn1 >\n";
+    } 
+
+    # Diff
+    elsif(not $output eq "" and $show_diff) {
+      print "> $fn1 <\n";
+    }
+
+    $file1 = shift @files1;
+    $file2 = shift @files2;
+  } else {
+
+    # Only in Dir 1
+    if(grep(/$fn1/, @diff) and $show_dir1) {
+      print "<<< $fn1\n";
+      $file1 = shift @files1;
+    } 
+   
+    # Only in Dir 2 
+    elsif(grep(/$fn2/, @diff) and $show_dir2) {
+      print ">>> $fn2\n";
+      $file2 = shift @files2;
+    }
+
+    # EDGE CASE
+    else {
+      $file1 = shift @files1;
+      $file2 = shift @files2;
     }
   }
 
-  if($file =~ /differ/) {
-    $_ = $file;
-    ($_, $path, $file) = /(.*) (\S+)\/(\S+)/;
-    chop $file;
+}
 
-    if($show_diff) {
-      print "< $file >";
-    }
-  }
- }
+# @diff = `/usr/bin/diff -q $dir1 $dir2`;
+# 
+# for $file (@diff) {
+#   if($file =~ /Only/) {
+# 
+#     $_ = $file;
+#     ($_, $path, $file) = /(.*) (\S+): (\S+)/;
+# 
+#     if($path eq $dir1) {
+#       if($show_dir1) {
+#         print "<<< $file\n";
+#       }
+#     } else {
+#       if($show_dir2) {
+#         print ">>> $file\n";
+#       }
+#     }
+#   }
+# 
+#   if($file =~ /differ/) {
+#     $_ = $file;
+#     ($_, $path, $file) = /(.*) (\S+)\/(\S+)/;
+#     chop $file;
+# 
+#     if($show_diff) {
+#       print "< $file >";
+#     }
+#   }
+#  }
