@@ -1,0 +1,5 @@
+AC_INIT(ssim.c)
+AM_INIT_AUTOMAKE(ssim, 1.0)
+AC_PROG_CC
+AC_PROG_INSTALL
+AC_OUTPUT(Makefile)

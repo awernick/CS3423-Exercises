@@ -1,0 +1,47 @@
+PCAP_MAGIC
+Version major number = 2
+Version minor number = 4
+GMT to local correction = 0
+Timestamp accuracy = 0
+Snaplen = 65535
+Linktype = 1
+
+Packet 0
+00000.000000
+Captured Packet Length = 60
+Actual Packet Length = 60
+Ethernet Header
+   ARP
+      arp operation = Arp Request
+
+Packet 1
+00000.397385
+Captured Packet Length = 92
+Actual Packet Length = 92
+Ethernet Header
+   IP
+      UDP
+
+Packet 2
+00001.581124
+Captured Packet Length = 60
+Actual Packet Length = 60
+Ethernet Header
+   UNRECOGNIZED
+
+Packet 3
+00003.202039
+Captured Packet Length = 315
+Actual Packet Length = 315
+Ethernet Header
+   IP
+      UDP
+
+Packet 4
+00003.238200
+Captured Packet Length = 243
+Actual Packet Length = 243
+Ethernet Header
+   IP
+      UDP
+
